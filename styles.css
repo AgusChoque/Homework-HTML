@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+.title {
+    display: flex;
+    font-size: 1.5em;
+    margin: auto;
+    justify-content: center;
+}
+
+.product {
+    width: 20em;
+    height: 20em;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 10%;
+    padding: 1em 1em 2em 1em;
+    border-color: #333;
+    background-color: aquamarine;
+    height: 35em;
+}
+
+.card:hover {
+    background-color: rgb(34, 231, 166);
+
+}
+
+.cardProduct {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+    border-radius: 25px;
+    padding: 2em 0em 2em 0em;
+    margin: auto;
+}
+
+#principal {
+    display: flex;
+    font-size: 1.5em;
+    width: 50vw;
+    margin: auto;
+    background-color: aquamarine;
+    justify-content: center;
+    border-radius: 15px;
+}

@@ -3,38 +3,47 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="./styles.css">
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
       <header>
+        <div class="title" id="principal">
             <h1>PANADERIA INCREIBLE</h1>
+        </div>
       </header>
       <main>
         <section>
-            <h2>Productos</h2>
-            <article>
-                <h3>Pan Francés</h3>
-                <img src="./frances.jpg" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere facilis velit similique obcaecati temporibus ea amet quod nesciunt 
-                    distinctio officiis unde tempora vero incidunt, iste sapiente consequatur quo ipsam adipisci!</p>
-            </article>
-            <hr />
-            <article>
-                <h3>Criollos</h3>
-                <img src="./criollos.jpeg" />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, repudiandae exercitationem! Tempora sapiente voluptatum laudantium!
-                     Corporis recusandae error molestiae cumque consequatur ipsam? Aut, sunt consequuntur? Molestias delectus expedita illum blanditiis?</p>
-            </article>
-            <hr />
-            <article>
-                <h3>Medialunas</h3>
-                <img src="./medialunas.jpeg" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem illo voluptas laudantium tempore saepe repudiandae nihil quis alias 
-                    voluptates! Soluta rem quibusdam ut ipsum voluptate exercitationem! Asperiores quae ipsa rerum.</p>
-            </article>
+            <h2 class="title">Productos</h2>
+            <div class="cardProduct">
+                <article>
+                    <div class="card">
+                        <h3 class="title">Pan Francés</h3>
+                        <img src="./frances.jpg" class="product" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere facilis velit similique obcaecati temporibus ea amet quod nesciunt 
+                        distinctio officiis unde tempora vero incidunt, iste sapiente consequatur quo ipsam adipisci!</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="card">
+                        <h3 class="title">Criollos</h3>
+                        <img src="./criollos.jpeg" class="product" />
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, repudiandae exercitationem! Tempora sapiente voluptatum laudantium!
+                        Corporis recusandae error molestiae cumque consequatur ipsam? Aut, sunt consequuntur? Molestias delectus expedita illum blanditiis?</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="card">
+                        <h3 class="title">Medialunas</h3>
+                        <img src="./medialunas.jpeg" class="product" />
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem illo voluptas laudantium tempore saepe repudiandae nihil quis alias 
+                        voluptates! Soluta rem quibusdam ut ipsum voluptate exercitationem! Asperiores quae ipsa rerum.</p>
+                    </div>
+                </article>
+            </div>
         </section>
         <section>
-            <h2>¿Por qué elegirnos?</h2>
+            <h2 class="title">¿Por qué elegirnos?</h2>
             <ul>
                 <li>Esta es el motivo mas importante</li>
                 <li>Este es uno de los motivos</li>
@@ -43,18 +52,23 @@
             </ul>
         </section>
         <section>
-            <h2>Testimonios</h2>
-            <article>
-                <h3>Carla</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque impedit similique omnis quo quam placeat eum quae dolore, aut voluptates 
-                    cum non hic ab explicabo, nobis tempora, a illum et.</p>
-            </article>
-            <hr />
-            <article>
-                <h3>Simona</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae saepe provident et culpa quam eos, quo, soluta sunt, praesentium 
-                    consequuntur explicabo ea deserunt dolor voluptatum non dolore fugit nihil fuga!</p>
-            </article>
+            <h2 class="title">Testimonios</h2>
+            <div class="testCard">
+                <article>
+                    <div class="test">
+                        <h3 class="title">Carla</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque impedit similique omnis quo quam placeat eum quae dolore, aut voluptates 
+                            cum non hic ab explicabo, nobis tempora, a illum et.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="test">
+                            <h3 class="title">Simona</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae saepe provident et culpa quam eos, quo, soluta sunt, praesentium 
+                            consequuntur explicabo ea deserunt dolor voluptatum non dolore fugit nihil fuga!</p>
+                        </div>
+                </article>
+            </div>
         </section>
       </main>
       <footer>
